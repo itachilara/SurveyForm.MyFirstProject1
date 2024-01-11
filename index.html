@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey form. my first project</title>
+  <link rel="stylesheet" href="styles.css">
+<script src="/practica.js"></script>
+</head>
+<body>
+  
+    <h1 id="title">FC Real Madrid-Account Registration</h1>
+    <p id="description">Please complete this form to register</p>
+ 
+  <form  action="" id="survey-form">
+    <div class="form-group">
+      <label for="name">Name </label>
+      <input type="text" id="name" placeholder="Name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Gmail</label>
+      <input type="email" id="email" placeholder="Email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="number">Age</label>
+      <input type="number" id="number" placeholder="Age" min="14" max="120" required>
+    </div>
+
+    <div class="form-group">
+      <label id="dropdown-label">Which of these options do you think best describes you?</label>
+      <select id="dropdown" name="dropdown">
+        <option value="1">Woman</option>
+        <option value="2">Man</option>
+        <option value="3">Other</option>
+        <option value="4">SIUUUUUUU</option>
+        <option value="5">I prefer not to say</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label  id="label-radio">Account type (required)</label>
+    </div>
+
+    <div class="form-radio">
+      <label for="love-account"><input type="radio" value="love-account" name="account type" checked> LOVE</label>
+    </div>
+
+    <div class="form-radio">
+      <label for="hate-account"><input type="radio" value="hate-account" name="account type"> HATE</label>
+    </div>
+
+    <div class="form-group">
+      <label>Why do you want to be a club member? <span>(Check all that apply)</span></label>
+    </div>
+
+    <div class="div-box">
+      <input type="checkbox" id="like" name="reason" value="1"><label for="like">I like this club</label>
+    </div>
+
+    <div class="div-box">
+      <input type="checkbox" id="win" name="reason" value="2"><label for="win">I want to win</label>
+    </div>
+
+    <div class="div-box">
+      <input type="checkbox" id="smart" name="reason" value="3"><label for="smart">Top winner of the Champions League</label>
+    </div>
+
+    <div class="div-box">
+      <input type="checkbox" id="15" name="reason" value="4"><label for="15">Let's go for 15</label>
+    </div>
+
+    <div class="div-box">
+      <input type="checkbox" id="loser" name="reason" value="5"><label for="loser">First club capable of creating a 'Super Team'</label>
+    </div>
+
+    <div class="div-box">
+      <input type="checkbox" id="white" name="reason" value="6"><label for="white">I like to wear white</label>
+    </div>
+
+    <div class="div-box">
+      <input type="checkbox" id="king" name="reason" value="7"><label for="king">I want to be king of Europe</label>
+    </div>
+
+    <div class="div-box">
+      <input type="checkbox" id="world" name="reason" value="9"><label for="world">The best team in the world</label>
+    </div>
+
+    <div class="div-box">
+      <input type="checkbox" id="7" name="reason" value="real7"><label for="7">Cr7 forever</label>
+    </div>
+
+    <div class="form-group">
+      <label>Additional comments</label>
+      <textarea name="suggestion" placeholder="I like this team because..."></textarea>
+    </div>
+
+    <div class="form-group">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</body>
+
+</html>
+
+
+
+
