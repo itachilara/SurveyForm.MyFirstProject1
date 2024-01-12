@@ -13,7 +13,7 @@ body {
   margin: 0 auto;
   max-width: 800px;
   min-width: 500px;
-  box-shadow: rgba(229, 224, 227, 0.812) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  box-shadow: rgb(240, 234, 234) 0px 19px 38px, rgba(240, 227, 227, 0.895) 0px 15px 12px;
   padding-bottom: 2em;
 }
 
